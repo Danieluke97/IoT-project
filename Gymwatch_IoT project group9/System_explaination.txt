@@ -1,0 +1,12 @@
+SYSTEM OVERVIEW:
+The system is designed to be installed on a wristband that contains miniaturized sensors to assist personal trainers, nutritionists, and athletes in their weightlifting training activities. 
+
+It is divided into 2 main codes: 
+
+a PUBLISHER that simulates the sensor data from the wristband and is controlled by a Telegram bot available at the link: @GymWatch_bot. 
+
+This bot can start training sessions and data transmission (command: /start), or input food items, kcal, and nutrients (command: /food) for diet monitoring via the program daily_calculation.py, which produces an Excel sheet with the data.
+
+Regarding training, the program generates data and publishes it to THINGSPEAK (saving it in a batch and sending it every 20 seconds to avoid losses) to be saved and ready for analysis. 
+
+The SUBSCRIBER downloads data from ThingSpeak and analyzes it to create useful information and indices for training analysis, especially in the medium and long term, and then saves it in Excel files, automatically producing graphs to allow for visualization even for those less familiar with it.

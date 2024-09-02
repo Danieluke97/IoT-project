@@ -1,0 +1,3 @@
+{"food": "chicken", "date": "2024-09-02", "quantity": 150.0, "carbs": 30.0, "fats": 3.0, "proteins": 31.5, "kcal": 118.5}
+{"food": "pasta", "date": "2024-09-02", "quantity": 150.0, "carbs": 67.5, "fats": 7.5, "proteins": 28.5, "kcal": 525.0}
+{"food": "lasagna (yummy)", "date": "2024-09-02", "quantity": 200.0, "carbs": 100.0, "fats": 40.0, "proteins": 20.0, "kcal": 1100.0}
